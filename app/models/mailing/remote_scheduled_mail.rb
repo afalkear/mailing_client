@@ -1,6 +1,6 @@
 require 'mailing_client/service_configuration'
 module Mailing
-  class ScheduledMail < LogicalModel
+  class RemoteScheduledMail < LogicalModel
     include MailingClient::ServiceConfiguration
 
     set_resource_path '/api/v0/scheduled_mails'
